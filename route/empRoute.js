@@ -12,5 +12,4 @@ empRoute.put('/active-employee/:emp_id', activeEmployee);
 empRoute.get('/filter-employee/:dept_id', filterEmployee);
 empRoute.get('/list-manager', listProjectManager);
 
-
 export default empRoute;
